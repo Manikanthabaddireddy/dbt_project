@@ -1,3 +1,3 @@
 {{ config(materialized='table') }}
 
-SELECT * FROM BANK_TB WHERE CUSTOMER_AGE<=40;
+SELECT * FROM BANK_TB WHERE CUSTOMER_AGE<=40
